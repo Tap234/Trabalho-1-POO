@@ -19,7 +19,7 @@ public class Circulo {
     }
 
     public static void main(String[] args) {
-        Circulo circulo = new Circulo(5);
+        Circulo circulo = new Circulo(6);
         circulo.exibir();
     }
 }
