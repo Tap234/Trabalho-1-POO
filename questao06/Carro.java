@@ -1,4 +1,4 @@
-package questao6;
+package questao06;
 
 public class Carro {
     private String placa;

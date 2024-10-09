@@ -1,4 +1,4 @@
-package questao3;
+package questao03;
 
 public class ContaBancaria {
     private String nc; // nc representa número da conta

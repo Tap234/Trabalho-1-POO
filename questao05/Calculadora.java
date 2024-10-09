@@ -1,4 +1,4 @@
-package questao5;
+package questao05;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,17 +7,14 @@ import java.util.Scanner;
 public class Calculadora {
     private List<Double> numeros;
 
-    // Construtor
     public Calculadora() {
         this.numeros = new ArrayList<>();
     }
 
-    // Método para adicionar números à lista
     public void adicionarNumero(double numero) {
         this.numeros.add(numero);
     }
 
-    // Método para somar todos os números
     public double somar() {
         double soma = 0;
         for (double numero : numeros) {
@@ -26,7 +23,6 @@ public class Calculadora {
         return soma;
     }
 
-    // Método para subtrair todos os números a partir do primeiro
     public double subtrair() {
         if (numeros.isEmpty()) {
             throw new IllegalArgumentException("Nenhum número foi adicionado.");
@@ -39,7 +35,6 @@ public class Calculadora {
         return resultado;
     }
 
-    // Método para multiplicar todos os números
     public double multiplicar() {
         if (numeros.isEmpty()) {
             throw new IllegalArgumentException("Nenhum número foi adicionado.");
@@ -52,7 +47,6 @@ public class Calculadora {
         return produto;
     }
 
-    // Método para dividir os números a partir do primeiro
     public double dividir() {
         if (numeros.isEmpty()) {
             throw new IllegalArgumentException("Nenhum número foi adicionado.");
@@ -68,17 +62,14 @@ public class Calculadora {
         return resultado;
     }
 
-    // Método para limpar a lista de números
     public void limpar() {
         numeros.clear();
     }
 
-    // Método main para testar a calculadora com entrada do usuário
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Calculadora calc = new Calculadora();
 
-        // Entrada de números
         System.out.println("Digite os números (digite 'next' para ir para as operações): ");
         while (true) {
             System.out.print("Digite um número: ");
@@ -95,7 +86,6 @@ public class Calculadora {
             }
         }
 
-        // Seleção de operação
         System.out.println("Escolha a operação: ");
         System.out.println("1 - Soma");
         System.out.println("2 - Subtração");

@@ -1,4 +1,4 @@
-package questao4;
+package questao04;
 
 public class Triangulo {
     private double lado1;

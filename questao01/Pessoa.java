@@ -1,4 +1,4 @@
-package questao1;
+package questao01;
 
 public class Pessoa {
     private String nome;

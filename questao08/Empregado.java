@@ -1,4 +1,4 @@
-package questao8;
+package questao08;
 
 public class Empregado {
     private String nome;

@@ -1,4 +1,4 @@
-package questao7;
+package questao07;
 
 public class FaturaTeste {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package questao2;
+package questao02;
 
 public class Circulo {
     private int raio;

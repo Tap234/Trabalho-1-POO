@@ -1,4 +1,4 @@
-package questao7;
+package questao07;
 
 public class Fatura {
     private String numero;
